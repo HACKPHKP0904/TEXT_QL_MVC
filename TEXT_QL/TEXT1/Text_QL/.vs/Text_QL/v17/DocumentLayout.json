@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TEXT1\\Text_QL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|d:\\text1\\text_ql\\text_ql\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|solutionrelative:text_ql\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|d:\\text1\\text_ql\\text_ql\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|solutionrelative:text_ql\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|d:\\text1\\text_ql\\text_ql\\views\\dashboard\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|solutionrelative:text_ql\\views\\dashboard\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|d:\\text1\\text_ql\\text_ql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|solutionrelative:text_ql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|d:\\text1\\text_ql\\text_ql\\views\\dashboard\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|solutionrelative:text_ql\\views\\dashboard\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|d:\\text1\\text_ql\\text_ql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473EDD6E-DE04-4AD1-B53C-3CF02C517C15}|Text_QL\\Text_QL.csproj|solutionrelative:text_ql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TEXT1\\Text_QL\\Text_QL\\Program.cs",
+              "RelativeDocumentMoniker": "Text_QL\\Program.cs",
+              "ToolTip": "D:\\TEXT1\\Text_QL\\Text_QL\\Program.cs",
+              "RelativeToolTip": "Text_QL\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T01:09:11.234Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Text_QL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Text_QL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T01:43:07.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDashboard.cshtml",
+              "DocumentMoniker": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Dashboard\\EmployeeDashboard.cshtml",
+              "RelativeDocumentMoniker": "Text_QL\\Views\\Dashboard\\EmployeeDashboard.cshtml",
+              "ToolTip": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Dashboard\\EmployeeDashboard.cshtml",
+              "RelativeToolTip": "Text_QL\\Views\\Dashboard\\EmployeeDashboard.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAqwFIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T01:31:18.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Text_QL\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "ToolTip": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Text_QL\\Views\\Dashboard\\AdminDashboard.cshtml",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAqwPkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T01:31:01.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\TEXT1\\Text_QL\\Text_QL\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Text_QL\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\TEXT1\\Text_QL\\Text_QL\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Text_QL\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwDoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T00:50:52.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Text_QL\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\TEXT1\\Text_QL\\Text_QL\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Text_QL\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAKYCAAAAAAAAAAAqwKsCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T00:49:09.998Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewData["Title"] - Admin Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        #sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            left: 0;
+            background: #343a40;
+            color: white;
+            padding-top: 20px;
+        }
+
+        #content {
+            width: calc(100% - 250px);
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        .sidebar-header {
+            text-align: center;
+            font-size: 1.5em;
+            padding: 20px;
+            background: #6c757d;
+        }
+
+        .list-unstyled .components a {
+            padding: 10px;
+            font-size: 1.1em;
+            display: block;
+            color: #d1d1d1;
+        }
+
+            .list-unstyled .components a:hover {
+                background: #6c757d;
+                color: white;
+            }
+
+        .card-title {
+            font-size: 1.5em;
+        }
+
+        .submenu {
+            background: #495057;
+            padding-left: 20px;
+        }
+
+            .submenu a {
+                color: #c2c7d0 !important;
+            }
+
+                .submenu a:hover {
+                    color: white !important;
+                }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .collapse.show .submenu {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-user-shield fa-3x"></i>
+                <h3>Admin</h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard Overview</a>
+                </li>
+                <li>
+                    <a href="#nhanVien" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-users"></i> Quản lý nhân viên</a>
+                    <ul class="collapse list-unstyled submenu" id="nhanVien">
+                        <li>
+                            <a href="#"><i class="fas fa-address-card"></i> Lưu trữ thông tin</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-calendar-alt"></i> Lịch làm việc</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-money-check-alt"></i> Lương/Thưởng</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#khachHang" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-user-friends"></i> Quản lý khách hàng</a>
+                    <ul class="collapse list-unstyled submenu" id="khachHang">
+                        <li>
+                            <a href="#"><i class="fas fa-info-circle"></i> Lưu trữ thông tin</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chart-line"></i> Phân tích hành vi</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-bullhorn"></i> Gửi thông báo</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#taiChinh" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-wallet"></i> Quản lý tài chính</a>
+                    <ul class="collapse list-unstyled submenu" id="taiChinh">
+                        <li>
+                            <a href="#"><i class="fas fa-dollar-sign"></i> Doanh thu</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-file-invoice-dollar"></i> Chi phí</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chart-pie"></i> Lợi nhuận</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#khoHang" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-warehouse"></i> Quản lý kho hàng</a>
+                    <ul class="collapse list-unstyled submenu" id="khoHang">
+                        <li>
+                            <a href="#"><i class="fas fa-boxes"></i> Theo dõi số lượng</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-truck-loading"></i> Đặt hàng</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-clipboard-check"></i> Báo cáo tình trạng</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#thucDonKhuyenMai" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-utensils"></i> Quản lý thực đơn và khuyến mãi</a>
+                    <ul class="collapse list-unstyled submenu" id="thucDonKhuyenMai">
+                        <li>
+                            <a href="#"><i class="fas fa-concierge-bell"></i> Cập nhật thực đơn</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-tags"></i> Tạo chương trình khuyến mãi</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#phanTichBaoCao" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-chart-bar"></i> Phân tích dữ liệu và báo cáo</a>
+                    <ul class="collapse list-unstyled submenu" id="phanTichBaoCao">
+                        <li>
+                            <a href="#"><i class="fas fa-database"></i> Thu thập dữ liệu</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-file-alt"></i> Lập báo cáo</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <h2>Admin Dashboard</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-white bg-info mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Order</h5>
+                            <p class="card-text">276k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Sales</h5>
+                            <p class="card-text">$4,679</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-white bg-warning mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Revenue</h5>
+                            <p class="card-text">425k</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Revenue</h5>
+                            <canvas id="revenueChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#sidebar ul li a.dropdown-toggle').on('click', function () {
+                    var $this = $(this);
+                    var target = $this.attr('href');
+                    if (target.startsWith('#')) {
+                        $this.toggleClass('active');
+                        $(target).collapse('toggle');
+                    }
+                });
+            });
+
+            var ctx = document.getElementById('revenueChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                    datasets: [{
+                        label: 'Revenue',
+                        data: [12, 19, 3, 5, 2, 3, 9],
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+    }
+</body>
+</html>
